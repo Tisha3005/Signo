@@ -63,12 +63,8 @@ public class Signo {
 
 		} else if (((mes == 12) && (dia >= 22) && (dia <= 30)) || ((mes == 1) && (dia >= 1) && (dia <= 20))) {
 			System.out.printf("Seu signo eh: " + "Capricornio".toUpperCase() + " e " + "seu planeta eh: "
-					+ "Saturno".toUpperCase());
-			
-			teclado.close();	
-			
+					+ "Saturno".toUpperCase());	
 		}
-		
+		teclado.close();	
 	}
-	
 }
